@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/bootstrap-rtl.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/resposive.css">
+</head>
+<body dir="rtl">
+    <div class="container-fluid back-btn ">
+        <div class="row">
+            <div class="col p-3 pl-4">
+                <button style="background: transparent; border: none;"><i class="bi bi-arrow-right"></i></button>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav>
+                        <div class="nav nav-pills nav-fill justift-content-center mb-4" id="nav-tab" role="tablist">
+                          <button class="nav-link active " id="nav-home-tab" data-toggle="tab" data-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">کیف پول</button>
+                          <button class="nav-link"  id="nav-profile-tab" data-toggle="tab" data-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">تراکنشات</button>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                            <div class="row">
+                                <div class="col text-center">
+                                    <h5 class="text-black">
+                                        موجودی کیف پول
+                                    </h5>
+                                    <span class="text-black">(<span class="text-black">0</span> تومان )</span>
+                                </div>
+                            </div>
+                            <div class="row mt-5">
+                                <form class="col" >
+                                    <div class="mb-4">
+                                        <div class="card border-0 shadow-light">
+                                            <div class="card-body">
+                                                <h6 class="subtitle">اضافه کردن موجودی کیف پول</h6>
+                                                <div class="form-group ">
+                                                    <label class="text-mute small">مبلغ <small>(تومان)</small></label>
+                                                    <input type="text" class="form-control" >
+                                                    <div class="invalid-feedback">
+                                                        لطفا مبلغ را وارد کنید
+                                                    </div>
+                                                </div>
+                                                <div class="form-group mb-3">
+                                                    <label class="text-mute small" for="SelectedGateway">بانک <small>(درگاه)</small></label>
+                                                    <select class="form-control" aria-label="Default select example" data-val="true" name="SelectedGateway">
+                                                    <option value="9">زرین پال</option></select>
+                                                    <div class="invalid-feedback">
+                                                        لطفا درگاه را انتخاب کنید
+                                                    </div>
+                                                </div>
+                                                <div class="form-group mt-3">
+                                                    <button type="submit" class="btn btn-lg btn-default btn-block btn-rounded shadow " style="background-color: #f94620;"><span>پرداخت</span></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </form>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            <table>
+                                <thead>
+                                  <tr class="page-walet-head">
+                                    <th>تراکنش</th>
+                                    <th>تاریخ</th>
+                                    <th>وضعیت</th>
+                                    <th>مجموع</th>
+                                    <th>عملیات</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr class="page-walet-details">
+                                      <td class="page-walet-id" >#4533</td>
+                                      <td class="page-walet-date"  >فروردین 28, 1403</td>
+                                      <td class="page-walet-status"  >در حال انجام</td> 
+                                      <td class="page-walet-prise" >50,000 تومان برای 1 مورد</td>
+                                      <td class="page-walet-actions" >
+                                        <a href="">نمایش بیشتر</a>
+                                      </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- sticky footer  -->
+    <div class="footer-tabs border-top text-center">
+        <ul class="nav nav-tabs justify-content-center " id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link loading">
+                    <span class="active">
+                        <i class="bi bi-house-fill"></i>
+                    </span>
+
+                    <small>خانه</small>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link loading" name="order-tab" type="button" data-toggle="modal" data-target="#modal-login">
+                    <span>
+                        <i class="bi bi-justify"></i>
+                    </span>
+
+                    <small>سفارشات</small>
+                </a>
+            </li>
+            <li class="nav-item centerlarge ">
+                <a style="background-color: #f94620;" class="nav-link" href="#" data-toggle="modal" data-target="#modal-login">
+                    <div>
+                        <i style="color: #fff; font-size: 1.7rem;" class="bi bi-cart"></i>
+                    </div>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link loading" href="#">
+                    <span>
+                        <i class="bi bi-wallet-fill"></i>
+                    </span>
+
+                    <small>کیف پول</small>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#" data-toggle="modal" data-target="#modal-login">
+                    <span>
+                        <i class="bi bi-person"></i>
+                    </span>
+                    <small>پروفایل </small>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

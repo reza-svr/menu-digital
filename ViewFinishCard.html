@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/bootstrap-rtl.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/resposive.css">
+</head>
+<body dir="rtl">
+    <div class="container-fluid back-btn ">
+        <div class="row">
+            <div class="col p-3 pl-4">
+                <button style="background: transparent; border: none;"><i class="bi bi-arrow-right"></i></button>
+            </div>
+        </div>
+    </div>
+    <form class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h5 class="mb-4" style="color: #000;">
+                        مشاهده و پرداخت
+                    </h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="input-group text-center">
+                        <div class="input-group-append">
+                            <span class="input-group-text" style="border-radius: 0 50px 50px 0;" ></span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="کد تخفیف" name="discountCode" min="2">
+                        <div class="input-group-prepend">
+                            <button class="btn btn-success px-3" style="border-radius: 50px 0 0 50px;" type="submit" id="checkDiscountCode"><i class="bi bi-check2"></i> بررسی</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12 mt-4 mb-4">
+                    <h5 style="color: #000;">نحوه پرداخت </h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 mb-2">
+                    <div class="Select-Payment-Method p-2">
+                        <div class="d-flex justify-content-around">
+                            <div>
+                                <img src="img/wallet.svg" alt="">
+                            </div>
+                            <div>
+                                <h6>
+                                    کیف پول
+                                </h6>
+                                <h5>(موجودی : 0 تومان)</h5>
+                            </div>
+                            <div>
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mb-2">
+                    <div class="Select-Payment-Method p-2">
+                        <div class="d-flex justify-content-around">
+                            <div>
+                                <img src="img/zarinpal.svg" alt="">
+                            </div>
+                            <div>
+                                <h6>
+                                    پرداخت زرین پال
+                                </h6>
+                                <h5> پرداخت آنلاین</h5>
+                            </div>
+                            <div>
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mb-2">
+                    <div class="Select-Payment-Method p-2">
+                        <div class="d-flex justify-content-around">
+                            <div>
+                                <img src="img/credit-card.svg" alt="">
+                            </div>
+                            <div>
+                                <h6>
+                                    پرداخت در محل (کارت خوان)
+                                </h6>
+                                
+                            </div>
+                            <div>
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mb-2">
+                    <div class="Select-Payment-Method p-2">
+                        <div class="d-flex justify-content-around">
+                            <div>
+                                <img src="img/payment.svg" alt="">
+                            </div>
+                            <div>
+                                <h6>
+                                    پرداخت در محل (نقدی)
+                                </h6>
+                                
+                            </div>
+                            <div>
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 mt-4 mb-3">
+                    <h5 style="color: #000;">توضیحات </h5>
+                </div>
+                <div class="col-12">
+                    <div class="form-group">
+                        <textarea rows="2" name="desc" class="form-control" id="Order_Description"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col">
+                     <div class="cart-order-box">
+                         <div class="d-flex justify-content-between">
+                             <div>
+                                 <span>قابل پرداخت</span>
+                             </div>
+                             <div>
+                                 <span>
+                                     1,250,000 
+                                 </span>
+                                 <span>ریال</span>
+                             </div>
+                         </div>
+                         <hr>
+                         <div class="d-flex justify-content-between">
+                             <div>
+                                 <span>مبلغ کل</span>
+                             </div>
+                             <div>
+                                 <span>
+                                     1,250,000 
+                                 </span>
+                                 <span>ریال</span>
+                             </div>
+                         </div>
+                     </div>
+                </div> 
+             </div>
+             <div class="row mt-4 pb-5">
+                 <div class="col">
+                     <div class="btn-add-to-cart pb-5">
+                         <a  href="">
+                             ثبت نهایی  
+                             <i class="bi bi-chevron-left"></i>
+                         </a>
+                     </div>
+                 </div>
+             </div>
+        </div>
+    </form>
+    <!-- sticky footer  -->
+    <div class="footer-tabs border-top text-center">
+        <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link loading">
+                    <span class="active">
+                        <i class="bi bi-house-fill"></i>
+                    </span>
+
+                    <small>خانه</small>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link loading" name="order-tab" type="button" data-toggle="modal" data-target="#modal-login">
+                    <span>
+                        <i class="bi bi-justify"></i>
+                    </span>
+
+                    <small>سفارشات</small>
+                </a>
+            </li>
+            <li class="nav-item centerlarge ">
+                <a style="background-color: #f94620;" class="nav-link" href="#" data-toggle="modal" data-target="#modal-login">
+                    <div>
+                        <i style="color: #fff; font-size: 1.7rem;" class="bi bi-cart"></i>
+                    </div>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link loading" href="#">
+                    <span>
+                        <i class="bi bi-wallet-fill"></i>
+                    </span>
+
+                    <small>کیف پول</small>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#" data-toggle="modal" data-target="#modal-login">
+                    <span>
+                        <i class="bi bi-person"></i>
+                    </span>
+                    <small>پروفایل </small>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/bootstrap-rtl.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/resposive.css">
+</head>
+<body dir="rtl">
+    <div class="container-fluid back-btn ">
+        <div class="row">
+            <div class="col p-3 pl-4">
+                <button style="background: transparent; border: none;"><i class="bi bi-arrow-right"></i></button>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="container"> 
+            <div class="row mb-4">
+                <div class="col">
+                    <h4 style="color: black;">ایجاد آدرس</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="address-for-send-box">
+                        <form class="p-4">
+                            <div class="form-row">
+                              <div class="col-md-6 mb-3">
+                                <label for="validationServer01">نام</label>
+                                <input type="text" class="form-control is-valid" id="validationServer01" value="رضا" required>
+                                
+                              </div>
+                              <div class="col-md-6 mb-3">
+                                <label for="validationServer02">نام خانوادگی</label>
+                                <input type="text" class="form-control is-valid" id="validationServer02" value="سواری" required>
+                                
+                              </div>
+                            </div>
+                            <div class="form-row">
+                              <div class="col-md-6 mb-3">
+                                <label for="validationServer03">آدرس</label>
+                                <input type="text" class="form-control is-invalid" id="validationServer03" aria-describedby="validationServer03Feedback" required>
+                                <div id="validationServer03Feedback" class="invalid-feedback">
+                                  آدرس کامل پستی را وارد کنید
+                                </div>
+                              </div>
+                              
+                              <div class="col-md-6 mb-3">
+                                <label for="validationServer05">شماره تماس</label>
+                                <input type="text" class="form-control is-invalid" id="validationServer05" aria-describedby="validationServer05Feedback" required>
+                                <div id="validationServer05Feedback" class="invalid-feedback">
+                                  شماره تلفن خودتون را وارد کنید 
+                                </div>
+                              </div>
+                            </div>
+                            
+                            <button class="btn btn-send-courier" type="submit">ایجاد</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- sticky footer  -->
+    <div class="footer-tabs border-top text-center">
+        <ul class="nav nav-tabs justify-content-center " id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link loading">
+                    <span class="active">
+                        <i class="bi bi-house-fill"></i>
+                    </span>
+
+                    <small>خانه</small>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link loading" name="order-tab" type="button" data-toggle="modal" data-target="#modal-login">
+                    <span>
+                        <i class="bi bi-justify"></i>
+                    </span>
+
+                    <small>سفارشات</small>
+                </a>
+            </li>
+            <li class="nav-item centerlarge ">
+                <a style="background-color: #f94620;" class="nav-link" href="#" data-toggle="modal" data-target="#modal-login">
+                    <div>
+                        <i style="color: #fff; font-size: 1.7rem;" class="bi bi-cart"></i>
+                    </div>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link loading" href="#">
+                    <span>
+                        <i class="bi bi-wallet-fill"></i>
+                    </span>
+
+                    <small>کیف پول</small>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#" data-toggle="modal" data-target="#modal-login">
+                    <span>
+                        <i class="bi bi-person"></i>
+                    </span>
+                    <small>پروفایل </small>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

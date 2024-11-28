@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/bootstrap-rtl.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/resposive.css">
+</head>
+<body dir="rtl">
+    <div class="container-fluid back-btn ">
+        <div class="row">
+            <div class="col p-3 pl-4">
+                <button style="background: transparent; border: none;"><i class="bi bi-arrow-right"></i></button>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-4 mt-4">
+                    <h6 class="text-black font-weight-bold">جزییات سفارش </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mb-2">
+        <div class="card border-0 shadow-light mb-4">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        <h5 class="text-black"> #1</h5>
+                        <p class="" style="color: #404040;">1403/06/05 11:10</p>
+                        <div>
+                            <strong class="mr-2">وضعیت: </strong>
+    
+                                    <div class="badge rounded-pill badge-soft-primary fs--2">
+                                        ثبت درخواست
+                                    </div>
+    
+                        </div>
+                    </div>
+    
+    
+                    <div class="col-lg-3">
+                        <h5 class="mb-3 fs-0 text-black">نحوه پرداخت</h5>
+                        <div class="d-flex">
+                                    <img class="mr-3" src="img/payment.svg" width="40" height="30" alt="">
+                                    <div class="flex-1">
+                                        <h6 class="mb-0 text-black"> در محل (نقدی)</h6>
+                                        <p class="mb-0 "></p>
+                                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mb-2" id="isMyCard">
+        <div class="card border-0 shadow-light mb-3 overflow-hidden best-plan pricing-rates">
+            <div class="card-body position-relative" style="padding: 10px">
+                <div class="row">
+                        <div class="col-auto w-150 align-self-center" style="cursor: pointer" onclick="handleViewItem(9717)">
+                            <div class=" position-relative" style="height: 90px">
+                                <div class="lazy rounded" id="img-9717">
+                                    <img class="lazy rounded" src="img/food-1.jpg" alt="دوبل چیزبرگر" style="width: 130px; height: 90px;">
+
+                                </div>
+                            </div>
+                        </div>
+
+                    <div class="col ">
+                        <p class="mb-1 " style="height: 50px !important">
+                            <a class="font-weight-bold" style="font-size: 15px" href="javascript:void (0)" onclick="handleViewItem(9717)">دوبل چیزبرگر </a>
+                        </p>
+                        <div class="row">
+                            <div class="col-auto  text-right">
+                                <span class="float-right font-weight-bold" style="font-size: 16px; color: #000;">
+                                    1,650,000
+                                    <small class="text-center fl-l" style="font-size: 8px; margin-top: 6px; padding-right: 3px;">
+                                        ریال
+                                    </small>
+                                </span>
+                            </div>
+                            <div class="col text-right mr-2">
+                                <label class="text-black" >1</label>
+                            </div>
+                        </div>
+
+                    </div>
+                 
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mb-5">
+        <div class="row mt-4">
+            <div class="col">
+                 <div class="cart-order-box">
+                     <div class="d-flex justify-content-between">
+                         <div>
+                             <span>قابل پرداخت</span>
+                         </div>
+                         <div>
+                             <span>
+                                 1,250,000 
+                             </span>
+                             <span>ریال</span>
+                         </div>
+                     </div>
+                     <hr>
+                     <div class="d-flex justify-content-between">
+                         <div>
+                             <span>مبلغ کل</span>
+                         </div>
+                         <div>
+                             <span>
+                                 1,250,000 
+                             </span>
+                             <span>ریال</span>
+                         </div>
+                     </div>
+                 </div>
+            </div> 
+         </div>
+    </div>
+    <!-- sticky footer  -->
+    <div class="footer-tabs border-top text-center">
+        <ul class="nav nav-tabs justify-content-center " id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link loading">
+                    <span class="active">
+                        <i class="bi bi-house-fill"></i>
+                    </span>
+
+                    <small>خانه</small>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link loading" name="order-tab" type="button" data-toggle="modal" data-target="#modal-login">
+                    <span>
+                        <i class="bi bi-justify"></i>
+                    </span>
+
+                    <small>سفارشات</small>
+                </a>
+            </li>
+            <li class="nav-item centerlarge ">
+                <a style="background-color: #f94620;" class="nav-link" href="#" data-toggle="modal" data-target="#modal-login">
+                    <div>
+                        <i style="color: #fff; font-size: 1.7rem;" class="bi bi-cart"></i>
+                    </div>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link loading" href="#">
+                    <span>
+                        <i class="bi bi-wallet-fill"></i>
+                    </span>
+
+                    <small>کیف پول</small>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#" data-toggle="modal" data-target="#modal-login">
+                    <span>
+                        <i class="bi bi-person"></i>
+                    </span>
+                    <small>پروفایل </small>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

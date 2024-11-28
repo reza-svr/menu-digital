@@ -1,0 +1,20 @@
+@media screen and (max-width: 750px) {
+    .resposive-p{
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .item-box-small-img img{
+        height: 110px; 
+        width: 125px; 
+        border-radius: 6px;
+    }
+    .address-for-send-box{
+        min-height: 600px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .resposive-p{
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+}

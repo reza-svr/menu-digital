@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/bootstrap-rtl.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/resposive.css">
+</head>
+<body dir="rtl">  
+    <div class="container-fluid back-btn ">
+        <div class="row">
+            <div class="col p-3 pl-4">
+                <button style="background: transparent; border: none;"><i class="bi bi-house"></i></button>
+            </div>
+        </div>
+    </div>
+    <form class=" container mt-5 pt-5" >
+        <div class="row">
+            <div class="col-11 col-sm-8 col-md-6 mx-auto align-self-center">
+                <h4 class="text-black">ممنون بابت انتخاب ما!</h4>
+                <h5 class=" mb-4 text-black">ورود / عضویت</h5>
+
+                <div class="form-group">
+                    <label for="PhoneNo">شماره تماس</label>
+                    <div class="input-group text-center" dir="ltr">
+                        <div class="input-group-prepend">
+                            <span style="border-radius: 50px 0 0 50px;" class="input-group-text" id="basic-addon98">+98</span>
+                        </div>
+                        <input style="border-radius: 0px 50px 50px 0px;" type="text" id="PhonNo" maxlength="10" class="form-control" placeholder="912 xxx xx xx" required="" autofocus="" autocomplete="off" data-val="true" data-val-maxlength="شماره تماس نمی تواند بیشتر از 200 کاراکتر باشد." data-val-maxlength-max="200" data-val-regex="لطفا شماره تلفن همراه را صحیح وارد نمایید." data-val-regex-pattern="^(?!(0))[0-9]{10}$" data-val-required="لطفا شماره تماس را وارد کنید" name="PhoneNo" value="">
+
+                    </div>
+              
+                    <span class="text-danger field-validation-valid" data-valmsg-for="PhoneNo" data-valmsg-replace="true">
+                    </span>
+                </div>
+                <div class="form-group">
+                    <div class="custom-control custom-checkbox custom-control-inline custom-control-right">
+                        <input type="checkbox" id="location" class="custom-control-input" checked="checked" required="" data-val="true" data-val-required="لطفا  قوانین  را انتخاب کنید" name="AcceptRules" value="true">
+                        <label class="custom-control-label" for="location"><a href="#">قوانین و مقررات </a> را میپذیرم.</label>
+                        <div class="invalid-feedback">
+                            <span class="field-validation-valid" data-valmsg-for="AcceptRules" data-valmsg-replace="true"></span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="mb-5 text-center">
+                    <button style="background-color: #475861; color: white;" type="submit" id="btnSub" class=" btn btn-lg btn-default default-shadow btn-block">ورود / عضویت</button>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
