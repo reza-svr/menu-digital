@@ -671,7 +671,7 @@ li {
 
 /* start profile user coffe */
 .background-user-profile-page{
-    background-image: url(/img/ecommercecover.jpg);
+    background-image: url(../img/ecommercecover.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
