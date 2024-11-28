@@ -521,8 +521,8 @@ li {
     color: #fff;
     border: none;
     cursor: pointer;
-    font-size: 20px;
-    width: 30px;
+    font-size: 18px;
+    width: 22px;
     height: auto;
     text-align: center;
     transition: background-color 0.2s;
@@ -533,10 +533,10 @@ li {
   }
   
   .input-box {
-    width: 40px;
+    width: 30px;
     text-align: center;
     border: none;
-    padding: 8px 10px;
+    padding: 6px 10px;
     font-size: 16px;
     outline: none;
   }
